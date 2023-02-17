@@ -8,7 +8,7 @@ import { Blog } from '../Components/nav/pages/Blog'
 export const RouteData = () => {
   return (
     <div>
-        <h1>RouteData</h1>
+      
             <BrowserRouter>
             <NavBar/>
             <Routes>

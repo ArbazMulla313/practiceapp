@@ -1,0 +1,10 @@
+
+Delete Button
+
+const handleDeleteTask =(item,index)=>{
+        const remainTask=Todoo.filter((elem,ind)=>ind !=index);
+          setTodoo(remainTask);
+        }
+
+
+<Button onClick={()=>handleDeleteTask(item,index)}>Delete</Button>
